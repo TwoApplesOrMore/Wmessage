@@ -1,0 +1,13 @@
+.product__slider-main {
+  margin-bottom: 15px; }
+  .product__slider-main img {
+    margin: 0 auto; }
+
+.product__slider-thmb .slick-slide {
+  opacity: 0.5;
+  transition: all .3s ease; }
+  .product__slider-thmb .slick-slide.slick-active, .product__slider-thmb .slick-slide:hover {
+    opacity: 1; }
+
+.product__slider-main, .product__slider-thmb {
+  display: none; }
