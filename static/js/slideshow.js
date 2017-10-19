@@ -10,7 +10,9 @@ if ($('.product__slider-main').length) {
             autoplay: true,
             lazyLoad: 'ondemand',
             autoplaySpeed: 3000,
-            asNavFor: '.product__slider-thmb'
+            asNavFor: '.product__slider-thmb',
+            prevArrow: false,
+            nextArrow: false
         });
 
     var $slider2 = $('.product__slider-thmb')
@@ -18,13 +20,15 @@ if ($('.product__slider-main').length) {
             $('.product__slider-thmb').fadeIn(1000);
         })
         .slick({
-            slidesToShow: 4,
+            slidesToShow: 6,
             slidesToScroll: 1,
             lazyLoad: 'ondemand',
             asNavFor: '.product__slider-main',
             dots: false,
             centerMode: false,
-            focusOnSelect: true
+            focusOnSelect: true,
+            prevArrow: false,
+            nextArrow: false
         });
 
     //remove active class from all thumbnail slides
