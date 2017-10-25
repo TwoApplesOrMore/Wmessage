@@ -7,7 +7,7 @@ if ($('.product__slider-main').length) {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            autoplay: true,
+            autoplay: false,
             lazyLoad: 'ondemand',
             autoplaySpeed: 3000,
             asNavFor: '.product__slider-thmb',
